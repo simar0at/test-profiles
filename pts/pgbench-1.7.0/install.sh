@@ -103,10 +103,10 @@ case \$1 in
 		SCALING_FACTOR=\`echo \"\$SYS_MEMORY * 0.003\" | bc\`
 	;;
 	\"MOSTLY_CACHE\")
-		SCALING_FACTOR=\`echo \"\$SYS_MEMORY * 0.2\" | bc\`
+		SCALING_FACTOR=\`echo \"\$SYS_MEMORY * 0.02\" | bc\`
 	;;
 	\"ON_DISK\")
-		SCALING_FACTOR=\`echo \"\$SYS_MEMORY * 0.8\" | bc\`
+		SCALING_FACTOR=\`echo \"\$SYS_MEMORY * 0.05\" | bc\`
 	;;
 esac
 
